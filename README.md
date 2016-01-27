@@ -1,5 +1,5 @@
 # AmountKeyboard
-金额键盘，专为输入金额自定义的键盘。通过inputView弹出键盘，block传值，使用简单。
+金额键盘，一个专为输入金额自定义的键盘。简单集成，使用inputView弹出键盘，block传递输入值。
 
 
 演示：
