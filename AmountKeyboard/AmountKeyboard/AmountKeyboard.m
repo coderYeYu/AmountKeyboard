@@ -60,19 +60,23 @@
     
     //横线
     for (NSInteger i=0; i<4; i++) {
-        UIView *line = [[UIView alloc] initWithFrame:CGRectMake(0, i*height, self.frame.size.width, 0.5)];
-        line.backgroundColor = Color_Border;
-        [self addSubview:line];
+        [self lineLayer].frame = CGRectMake(0, i*height, self.frame.size.width, 0.5);
     }
     
     //竖线
     for (NSInteger i=0; i<2; i++) {
-        UIView *line = [[UIView alloc] initWithFrame:CGRectMake((i+1)*width, 0, 0.5, self.frame.size.height)];
-        line.backgroundColor = Color_Border;
-        [self addSubview:line];
+        [self lineLayer].frame = CGRectMake((i+1)*width, 0, 0.5, self.frame.size.height);
     }
     
     return self;
+}
+
+- (CALayer *)lineLayer {
+    CALayer *line = [CALayer new];
+    line.backgroundColor = Color_Border.CGColor;
+    [self.layer addSublayer:line];
+    
+    return line;
 }
 
 /**
