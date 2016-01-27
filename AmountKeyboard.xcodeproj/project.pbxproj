@@ -13,6 +13,8 @@
 		6B17A4A61C57B714002BF276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B17A4A41C57B714002BF276 /* Main.storyboard */; };
 		6B17A4A81C57B714002BF276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B17A4A71C57B714002BF276 /* Assets.xcassets */; };
 		6B17A4AB1C57B714002BF276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B17A4A91C57B714002BF276 /* LaunchScreen.storyboard */; };
+		6B17A4B51C57B7D7002BF276 /* AmountKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B17A4B41C57B7D7002BF276 /* AmountKeyboard.m */; };
+		6B17A4B81C57B803002BF276 /* YUButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B17A4B71C57B803002BF276 /* YUButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		6B17A4A71C57B714002BF276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B17A4AA1C57B714002BF276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B17A4AC1C57B714002BF276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B17A4B31C57B7D7002BF276 /* AmountKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmountKeyboard.h; sourceTree = "<group>"; };
+		6B17A4B41C57B7D7002BF276 /* AmountKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmountKeyboard.m; sourceTree = "<group>"; };
+		6B17A4B61C57B803002BF276 /* YUButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUButton.h; sourceTree = "<group>"; };
+		6B17A4B71C57B803002BF276 /* YUButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		6B17A49A1C57B714002BF276 /* AmountKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				6B17A4B21C57B7B5002BF276 /* AmountKeyboard */,
 				6B17A49E1C57B714002BF276 /* AppDelegate.h */,
 				6B17A49F1C57B714002BF276 /* AppDelegate.m */,
 				6B17A4A11C57B714002BF276 /* ViewController.h */,
@@ -77,6 +84,17 @@
 				6B17A49C1C57B714002BF276 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B17A4B21C57B7B5002BF276 /* AmountKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6B17A4B31C57B7D7002BF276 /* AmountKeyboard.h */,
+				6B17A4B41C57B7D7002BF276 /* AmountKeyboard.m */,
+				6B17A4B61C57B803002BF276 /* YUButton.h */,
+				6B17A4B71C57B803002BF276 /* YUButton.m */,
+			);
+			path = AmountKeyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B17A4B81C57B803002BF276 /* YUButton.m in Sources */,
 				6B17A4A31C57B714002BF276 /* ViewController.m in Sources */,
 				6B17A4A01C57B714002BF276 /* AppDelegate.m in Sources */,
 				6B17A49D1C57B714002BF276 /* main.m in Sources */,
+				6B17A4B51C57B7D7002BF276 /* AmountKeyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

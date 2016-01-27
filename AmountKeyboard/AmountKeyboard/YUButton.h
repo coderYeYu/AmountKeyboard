@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YUButton.h
 //  AmountKeyboard
 //
 //  Created by yeyu on 16/1/26.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-@property (weak, nonatomic) IBOutlet UITextField *amountTF;
+@interface YUButton : UIButton
 
 @end
-
