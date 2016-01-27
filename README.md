@@ -8,7 +8,7 @@
 
 使用方法：
 
-```c
+```objc
 [AmountKeyboard amountKBWithTextField:self.amountTF].changeTextBlock = ^(NSString *text) {
         NSLog(@"当前输入的金钱：%@",text);
     };
