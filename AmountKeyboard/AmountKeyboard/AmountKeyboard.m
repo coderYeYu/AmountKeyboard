@@ -123,7 +123,7 @@
         }
     }
     else {
-        //如果输入框文本不为"",首字符为"0",并且不包含"."
+        //输入框文本不为"",首字符为"0",并且不包含"."
         if (self.textField.text.length != 0 && [[self.textField.text substringToIndex:1] isEqualToString:@"0"] && [self.textField.text rangeOfString:@"."].location == NSNotFound) {
             self.textField.text = [NSString stringWithFormat:@"%@", title];
         }
